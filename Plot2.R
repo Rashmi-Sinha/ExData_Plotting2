@@ -1,3 +1,12 @@
+## In this assignment we analyze data on fine particulate matter (PM2.5)
+## and develop a set of graphs in png format displaying 
+## The data was provided as part of the Coursera Course Exploratory
+## Data Analaysis from https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip
+## which was originally downloaded on May 9, 2014.
+## The data was collected from the EPA for the years 1999, 2002, 2005 and 2008.
+## See README.md in the repository for further information and references about the
+## data and background.
+
 library(ggplot2)
 library(utils)
 library(plyr)
