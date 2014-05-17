@@ -45,6 +45,7 @@ unique(NEI$year)
 sum(is.na(NEI))
 # See if we have any emissions < 0 which would be inaccurate
 sum((NEI$Emissions<0))
+
 # Plot 2
 BCNEI <- subset(NEI, fips == "24510")
 BCTotalEmissions <- ddply(BCNEI, "year", summarize, Total_Emissions=sum(Emissions))
