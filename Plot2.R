@@ -1,3 +1,4 @@
+
 ## In this assignment we analyze data on fine particulate matter (PM2.5)
 ## and develop a set of graphs in png format displaying 
 ## The data was provided as part of the Coursera Course Exploratory
